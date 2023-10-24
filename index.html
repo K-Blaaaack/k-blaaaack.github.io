@@ -5,6 +5,8 @@
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>K-Black的博客--未完工</title>
 	<link rel="icon" type="image/jpg" href="img/hhh.jpg">
+	<link rel="stylesheet" type="text/css" href="glass.css">
+
     <script type="text/javascript">
     	
    		document.addEventListener('plusready', function(){
@@ -13,33 +15,89 @@
    		});
    		
     </script>
-</head>
-<body style="background: url(./img/xytk_bg.png);">
-	<p>
-	    <h1 style="background-color: aqua;text-align:center;">Hello,World</h1>
-	    <h3 style="text-align:center;color: brown;">这是一个建设中的博客</h3>
-	    <h3 style="text-align:center;">关于什么时候建好这件事我也不知道</h3>
-		<h3 style="text-align:center;">当我学完HTML，网站就建好</h3>
-		
-	</p>
-	<hr>
-	<p style="text-align:center;">
-	<!-- 	<a style="background-color: aliceblue" href="Steam.html">Steam风格主页</a><br> -->
-		<a style="background-color: aliceblue;" href="https://github.com/teeeeio" target="_blank">跳转到我的GitHub主页</a><br>
-		<a style="background-color: aliceblue;" href="video/231016.mp4">可以看看我之前的博客</a>
-		<h1 style="text-align:center;">看看V</h1>
-	    <img decoding="async" src="img/hhh.jpg" width="300" height="300" class="wapper" />
-		<!--嗯？怎么被你发现了.....-->
-		
-	</p>
 	<style>
-	.wapper{
-		display: block;
-		margin: auto;
+	
+	 
+	.card {
+	  width: 400px;
+	  height: auto;
+	  padding: 2rem;
+	  border-radius: 1rem;
+	  background: rgba(255, 179, 190,.3);
+	 webkit-backdrop-filter: blur(90px);
+	 backdrop-filter: blur(10px);
+	}
+	 
+	.card-title {
+	  margin-top: 0;
+	  margin-bottom: .5rem;
+	  font-size: 1.2rem;
+	}
+	 
+	p, a {
+	  font-size: 1rem;
+	}
+	 
+	a {
+	  color: #4d4ae8;
+	  text-decoration: none;
+	}
+	 
+	.shape {
+	  position: absolute;
+	  width: 150px;
+	  top: .5rem;
+	  left: .5rem;
+	}
+	.divtop{
+		z-index:9999;
 	}
 	</style>
-	
-	
 
+</head>
+<body  style="background-image: url(./img/xytk_bg.png);background-repeat:no-repeat; background-attachment: fixed;margin: 0px 0px 0px 0px;">
+	<div class="divtop" style="width:100%; height:50px; background-color: lightpink; position: fixed; bottom:1;line-height: 40px;">
+		<div style="margin: 5px 0px 0px 20px;">
+		<b><font size="5" color="white" >欢迎来到K-Black的博客</font></b>
+		<a style="margin-left: 20px;" href="index.html"><nobr><font size="5" color="white" >首页</font></a>
+		<a style="margin-left: 20px;" href="https:github.com/teeeeio"><nobr><font size="5" color="white" >GitHub主页</font></a>
+		<a style="margin-left: 20px;" href="gy.html"><nobr><font size="5" color="white" >关于本站</font></a>
+		</div>
+		
+		
+	</div>
+	<br>
+	<div class="card" style="width: auto;height: 160px;margin: 430px 40px 2.5px 40px;border-radius: 20px;text-align: center;">
+		<table>
+			<tr>
+				<td>
+					<b><font size="5" color="snow">公告:</font></b><nobr><i><b><font size="9" color="white">本站还在建设中......</font></b></i>
+				</td>	
+			</tr>
+			<tr>
+				<td>
+					<a href="video/231016.mp4"><i><b><font size="8" color="yellowgreen" >可以看看我之前的博客</font></b></i></a>
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	</div>
+	<br>
+	<div class="card" style="width: auto;height: 160px;margin: 5px 40px 2.5px 40px;border-radius: 20px;">
+		<i><b><font size="8" color="yellowgreen">暂无内容</font></b></i>
+		
+	</div>
+	<br>
+	<div class="card" style="width: auto;height: 160px;margin: 5px 40px 2.5px 40px;border-radius: 20px;">
+		<i><b><font size="8" color="yellowgreen">暂无内容</font></b></i>
+		
+	</div>
+	<br>
+	<div class="card" style="width: auto;height: 160px;margin: 5px 40px 2.5px 40px;border-radius: 20px;">
+		<i><b><font size="8" color="yellowgreen">暂无内容</font></b></i>
+		
+	</div>
 </body>
+
 </html>
