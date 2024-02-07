@@ -49,3 +49,18 @@
 	.img-border-radius{
 		border-radius: 50%;
 	}
+	.tb
+	{
+	    display: table-cell;
+	    overflow: hidden;
+	
+	    width: 1%;
+	    height: 50px;
+	
+	    text-align: center;
+	    vertical-align: middle;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	
+	    color: #929292;
+	}
